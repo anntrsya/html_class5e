@@ -1,0 +1,51 @@
+body
+{
+	background-color: lightblue;
+}
+
+h1
+{
+	color: deeppink;
+	background-color: beige;
+	border: 3px dotted maroon;
+	font-family: Verdana;
+}
+h2
+{
+	color: maroon;
+	font-family: Papyrus;
+	text-align: left;
+}
+h3
+{
+	text-align: right;
+	color: pink;
+	padding-right: 10px;
+
+}
+a:link 
+ 
+ {
+    color: green;
+    background-color: none;
+    text-decoration: underline;
+ }
+ a:visited
+
+ {
+ 	color: hotpink;
+    text-decoration: none;
+ }
+
+ a:hover
+
+ {
+    color: green;
+    text-decoration: underline;
+ }
+ 
+table td 
+{
+	border: 1px solid navy;
+	padding: 40px;
+}

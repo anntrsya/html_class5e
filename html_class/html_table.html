@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Table</title>
+
+
+	<style>
+		table, tr, th, td
+		{
+			border: 2px solid pink;
+			border-collapse: collapse;
+		}
+        th,td
+
+        {
+        	padding: 45px;
+        }
+       th
+       {
+
+       	background-color: green;
+       	color: beige;
+       	text-align: center;
+       }
+       tr:nth-child(odd)
+       {
+       	   background-color: beige;
+       }
+       tr:nth-child(even)
+       {
+       	background-color: lightpink;
+       }
+
+       td:nth-child(even)
+       {
+       	   background-color: yellow;
+       	   text-align: center;
+       }s
+       td:hover
+       {
+       	 background-color: grey;
+       }
+	</style>
+
+
+</head>
+<body>
+
+<h1>Basic Table</h1>
+
+<table style="width: 100%">
+	<caption>Table 1: Basic table</caption>
+	
+<tr>
+	
+	<th style="width: 30%">Name</th>
+	<th style="width: 15%">Student ID</th>
+	<th style="width: 45%">Picture</th>
+	<th style="width: 10%">Phone Num</th>
+
+</tr>
+
+<tr>
+	<td>Ann Adriana Batrisya Azlie</td>
+	<td>2023270896</td>
+    <td><img src="image/sunset.jpg" style="height: 100px"></td>
+    <td>01125701314</td>
+
+</tr>
+
+<tr style="height: 250px">
+	<td>Ann Adriana Batrisya Azlie</td>
+	<td>2023270896</td>
+    <td><img src="image/coffee.jpg" style="height: 100px"></td>
+    <td>01125701314</td>
+
+</tr>
+
+<tr>
+	<td>Ann Adriana Batrisya Azlie</td>
+	<td>2023270896</td>
+    <td><img src="image/cake.jpg" style="height: 100px"></td>
+    <td>01125701314</td>
+
+</tr>
+
+</table>
+
+<h1>Colspan</h1>
+
+<table style="width: 100%">
+	<tr>
+		<th>Name</th>
+		<th>Student ID</th>
+		<th colspan="3">Subject</th>
+
+
+	</tr>
+
+<tr>
+	
+  <td>ANN</td>
+  <td>2023270896</td>
+  <td>IMD318</td>
+  <td>Miss Aina</td>
+  <td>UiTM Kelantan</td>
+
+</tr>
+
+</table>
+
+<h1>Rowspan</h1>
+
+<table style="width: 70%">
+	<tr>
+		<th>Name</th>
+		<td>Anne</td>
+
+	</tr>
+	
+	<tr>
+		
+		<th rowspan="2">Email</th>
+		<td>annadrianaxx@gmail.com</td>
+	</tr>
+
+	<tr>
+		<td>ann@gmail.com</td>
+
+	</tr>
+   
+   <tr>
+   	 <th>Alamat</th>
+   	 <td rowspan="2">Kelantan</td>
+
+   </tr>
+
+<tr>
+	
+	<th>Alamat surat</th>
+</tr>
+
+
+</table>
+
+
+
+
+
+</table>
+</body>
+</html>

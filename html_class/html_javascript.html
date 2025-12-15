@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Javascript</title>
+</head>
+<body>
+
+<iframe src="https://free.timeanddate.com/clock/ia6uv77o/n122/szw110/szh110/hoc9b8578/hbw10/hfc754c29/cf100/hnc432f30/fav0/fiv0/mqcfff/mqs4/mql25/mqw12/mqd78/mhcfff/mhs2/mhl5/mhw2/mhd78/mmv0/hhcfff/hhs2/hhl50/hhw8/hmcfff/hms2/hml70/hmw8/hmr4/hscfff/hss3/hsl70/hsw3" frameborder="0" width="110" height="110" align="right"></iframe>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.6947729231606!2d102.27349880000001!3d5.756997600000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31b68fe6f50d123f%3A0xaeb67217536d6442!2sUiTM%20Machang!5e0!3m2!1sen!2smy!4v1765179647769!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+<h1>JavaScript change content</h1>
+
+<p id="content1">I am using JavaScript to change this content</p>
+<button type="button" onclick='document.getElementById("content1").innerHTML="This is my second sentence. I use Javascript to change it"'>Click me!!</button>
+
+
+
+<h1>JavaScript change the style</h1>
+<p id="style1">I am using JavaScript to change the style of this content</p>
+
+
+<script>
+	function myStyle() 
+	{
+
+		document.getElementById("style1").style.fontSize="30px";
+		document.getElementById("style1").style.color= "hotpink";
+		document.getElementById("style1").style.fontFamily="Lucida";
+		document.getElementById("style1").style.backgroundColor="beige";
+
+	}
+
+
+</script>
+<button type="button" onclick="myStyle()">Click Me</button>
+
+
+<h1>JavaScript do image manipulation</h1>
+
+<script>
+	function myImage(a)
+	{
+
+		var pict;
+		if (a==1)
+		{
+			pict="image/cake.jpg"
+		}
+
+        else
+        {
+            pict="image/strawberry_cake.jpg"
+     
+        }
+        document.getElementById('image1').src=pict;
+
+	}
+
+
+</script>
+
+
+<img src="image/cake.jpg" width="200" height="200" id="image1">
+<p>
+	
+	<button type="button" onclick="myImage(1)">Image A</button>
+	<button type="button" onclick="myImage(2)">Image B</button>
+</p>
+
+
+<h1>Alert Box</h1>
+
+<script>
+
+	{
+		alert("Hi yeorobun\nWelcome to My Page")
+	}
+	
+
+
+
+</script>
+
+
+
+
+</body>
+</html>
